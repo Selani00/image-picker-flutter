@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:tese_journey/Pages/plan_note.dart';
+import 'package:tese_journey/Pages/Registration_page.dart';
+import 'package:tese_journey/Pages/notification.dart';
+import 'package:tese_journey/Pages/profile.dart';
+import 'package:tese_journey/components/bottom_nav.dart';
 import 'package:tese_journey/components/image_slider.dart';
+import 'package:tese_journey/components/note.dart';
 import 'package:tese_journey/gallary.dart';
 import 'package:tese_journey/image_pick.dart';
 
@@ -16,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImagePickerScreen(),
+      home: bottomNavBar(),
     );
   }
 }

@@ -2,8 +2,9 @@
     <application
         android:label="tese_journey"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
-        <application android:requestLegacyExternalStorage="true" .....>y
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true">
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
